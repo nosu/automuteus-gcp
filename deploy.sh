@@ -9,6 +9,8 @@ fi
 
 gcloud config set compute/zone us-west1-b
 
+gcloud services enable compute.googleapis.com
+
 gcloud compute instances create automuteus \
 --machine-type=f1-micro \
 --boot-disk-size=30GB \
