@@ -2,7 +2,7 @@
 
 if [ -z "${DISCORD_BOT_TOKEN}" ];
 then
-  echo "Need to export a environment variable DISORD_BOT_TOKEN as below"
+  echo "Need to export an environment variable DISORD_BOT_TOKEN as below"
   echo "export DISCORD_BOT_TOKEN="
   exit 1
 fi
